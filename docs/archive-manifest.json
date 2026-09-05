@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-05",
+  "skill_count": 18,
+  "public_snapshot": {
+    "repository": "DHYEYPATL/SafeBuy---Razorpay-build",
+    "commit": "ff621ac0313da095028e91f9ccb3ddb75aaf761c",
+    "directory": ".grok",
+    "tree": "690e69379cad7637be7a3aaecaa23c0a812bfb7b",
+    "byte_identical_original_files": 85
+  },
+  "files": [
+    {
+      "path": "docs/guides/better-auth.md",
+      "bytes": 21231,
+      "sha256": "5a2d84a7af1814940cf3aa2936ae25af2b179bfffbaf865fb8874f45ac0d2f76",
+      "source": "supplementary-guide",
+      "original_path": "BETTER-AUTH-INSTRUCTIONS.md"
+    },
+    {
+      "path": "examples/app-env.example.json",
+      "bytes": 35,
+      "sha256": "4ecd4c43f97c92389a1fd774ca2cf94296c9e49208a3f43162988936685dadae",
+      "source": "sanitized-example",
+      "original_path": "app-env.example.json"
+    },
+    {
+      "path": "references/browser-qa.md",
+      "bytes": 2173,
+      "sha256": "a6818072d81646a74e2f515b3a0b6415966da3db61e4f82c50996c19d77b86b4",
+      "source": "public-snapshot",
+      "public_git_blob": "df51c906e0e87dfce6df7beff6983e1a563dbc5d"
+    },
+    {
+      "path": "references/data-and-auth.md",
+      "bytes": 3999,
+      "sha256": "0106dc3387224525e73fffa1e6d73ec5445237070863da87e3efb93f69414861",
+      "source": "public-snapshot",
+      "public_git_blob": "f7d22c3ce18254f21c245902eee75f565a9a0662"
+    },
+    {
+      "path": "references/deploy-target.md",
+      "bytes": 2103,
+      "sha256": "1cf4299e7a7b58ed937baf9441930011e98360010f7c3d3af5d806ea9486711a",
+      "source": "public-snapshot",
+      "public_git_blob": "32f3405e95b1699a0e51a1948b679500d9f0c805"
+    },
+    {
+      "path": "references/generated-art.md",
+      "bytes": 3854,
+      "sha256": "7485ecf0311612b97c0e3c24fbfac6bd118b1c82429a3ed2f272214fe6a6d994",
+      "source": "public-snapshot",
+      "public_git_blob": "c36134d08e257b23622753645b6d30e75c481816"
+    },
+    {
+      "path": "references/hibernate-revive.md",
+      "bytes": 1597,
+      "sha256": "de00ad8b9d269e406b15ea45d46c93bfc9ba0e1f8511c12236ed5442eef20dbc",
+      "source": "public-snapshot",
+      "public_git_blob": "284762c9d7fd234f00cc86b83d0eebe90799857b"
+    },
+    {
+      "path": "references/scaffold.md",
+      "bytes": 2282,
+      "sha256": "693195c814efb89dbafd1b6db716b6d2ae002f6ccef89605e85ec0e75e88d481",
+      "source": "public-snapshot",
+      "public_git_blob": "3da9bcc979b2542c9819f4156bd8254db5b8589b"
+    },
+    {
+      "path": "skills/auth/SKILL.md",
+      "bytes": 6337,
+      "sha256": "8ef007a02a845273a54144a1284c97a42b7b3215f54b4555cac38acf09105198",
+      "source": "public-snapshot",
+      "public_git_blob": "ad3d6962f3e64e9ac833f54524378ec608801f72"
+    },
+    {
+      "path": "skills/auth/references/per-user-data.md",
+      "bytes": 2402,
+      "sha256": "8538db1b761d2dce033e751eb7513e5d1012998b9d7599f8d1725e3b90830298",
+      "source": "public-snapshot",
+      "public_git_blob": "3fa8bfd20b4a693de1ec0324c3f3d9f86146e319"
+    },
+    {
+      "path": "skills/auth/references/prewired-and-env.md",
+      "bytes": 3392,
+      "sha256": "de580b328cc403f6b6d5638764c8f42fa6f17d461969f95eaed913c0a6ddabe5",
+      "source": "public-snapshot",
+      "public_git_blob": "411024e3b2ecfd032338432e2209b95faa3946c4"
+    },
+    {
+      "path": "skills/auth/references/session-ui.md",
+      "bytes": 4821,
+      "sha256": "84c73bfd3f6076cf3ec3bd8d55fbce16f703e0dbe50d7342161c29c941f60e75",
+      "source": "public-snapshot",
+      "public_git_blob": "cccb829fb3bb81004c18316de194d33e8b406007"
+    },
+    {
+      "path": "skills/auth/references/sign-in-methods.md",
+      "bytes": 2892,
+      "sha256": "f768048704e997511b46d9f8162bad5bf3faf749977f5fb014c9325e738c0277",
+      "source": "public-snapshot",
+      "public_git_blob": "3ffc65813b71668117b59466a2dccea679513504"
+    },
+    {
+      "path": "skills/auth/references/wiring.md",
+      "bytes": 2627,
+      "sha256": "75d840d1eedb9ce17fbb3ffd10a09ac9ac90a469f9f185338b14b8079fbb407c",
+      "source": "public-snapshot",
+      "public_git_blob": "c2331be23ca6352d2764b812971094504117fb8f"
+    },
+    {
+      "path": "skills/building-games/SKILL.md",
+      "bytes": 12224,
+      "sha256": "429fd21e70581ec0316bc0e09ae6f6b5b15d325070e36d388b9396b4831c7845",
+      "source": "public-snapshot",
+      "public_git_blob": "0c6b3cfbe63ecf0afbb74576d182474a6f1aec58"
+    },
+    {
+      "path": "skills/building-games/references/3d-libs.md",
+      "bytes": 3092,
+      "sha256": "db472820a65a16e4928a68a50fd31885b945ec2f9fa45a17a8152a0d48cf12bf",
+      "source": "public-snapshot",
+      "public_git_blob": "d3bf27a736b6ba357fe4612b4c8bbf5ced9f9e3b"
+    },
+    {
+      "path": "skills/building-games/references/ai-pathfinding.md",
+      "bytes": 9974,
+      "sha256": "e815831ca67d68e4bc7a649f63ae129abdd3d996040b2c446c2c574e72c8424b",
+      "source": "public-snapshot",
+      "public_git_blob": "80232c60020e12da08877cdd361a420caceb2bec"
+    },
+    {
+      "path": "skills/building-games/references/audio.md",
+      "bytes": 9423,
+      "sha256": "1de8c85a9fd6cb9594e11b6b1da7e54cdca8de512c0778eb35959f8f0fbe210c",
+      "source": "public-snapshot",
+      "public_git_blob": "ca86a7f7bd24ccbad323edc8a30d0651b8f74d87"
+    },
+    {
+      "path": "skills/building-games/references/babylon.md",
+      "bytes": 16504,
+      "sha256": "065934f53c6c8a1d5fd27a98f1311df2b4f2f194eb694355a98cc3c802a3ebd6",
+      "source": "public-snapshot",
+      "public_git_blob": "b0a7c4cf8fcc72d687eeb8a78d4299fddd776842"
+    },
+    {
+      "path": "skills/building-games/references/collision-physics.md",
+      "bytes": 10990,
+      "sha256": "af213fa9079d38742fc4d95a9c6a34907b85fb039e6c8cdb058dcbf5c7bd8672",
+      "source": "public-snapshot",
+      "public_git_blob": "5ce9189d5f39d8701facd5c1ecda231a2c7fe1d6"
+    },
+    {
+      "path": "skills/building-games/references/ecs-architecture.md",
+      "bytes": 9185,
+      "sha256": "6b0de85d73be9725c3989136c968b85ceec70c333cc0ef9993e58aff0f1b0d5f",
+      "source": "public-snapshot",
+      "public_git_blob": "6011f388c3c4b0ae30b4fd489402692ebc66e0fe"
+    },
+    {
+      "path": "skills/building-games/references/game-feel-juice.md",
+      "bytes": 10693,
+      "sha256": "24742ba2d5455f10c85c06ae279c636921f983a696b844a7f2505b988a5bef83",
+      "source": "public-snapshot",
+      "public_git_blob": "91ef68cbcf5589492c3bfc47aeed9e2e341da79d"
+    },
+    {
+      "path": "skills/building-games/references/genres/board-card-chess.md",
+      "bytes": 8859,
+      "sha256": "c2103f928e917c02729f00696165426ba106d9f235948347147d73ac53a50d65",
+      "source": "public-snapshot",
+      "public_git_blob": "f9817a4d680f6f741bdd1f666b4b270044f35534"
+    },
+    {
+      "path": "skills/building-games/references/genres/endless-runner.md",
+      "bytes": 6912,
+      "sha256": "2c0026ab6e57f6b025fbe3673aab24f7dff0fb70fb89f1b047486f1346049a54",
+      "source": "public-snapshot",
+      "public_git_blob": "32564725a1fae828931e646cf5482b987fc6b6db"
+    },
+    {
+      "path": "skills/building-games/references/genres/fps.md",
+      "bytes": 10039,
+      "sha256": "a3df7b29b964c3850e01d10fd4df131d3488f9064acac49ddc34386ec13d1ca2",
+      "source": "public-snapshot",
+      "public_git_blob": "a93793804e72eb389c5b68de70e4d9b10620adac"
+    },
+    {
+      "path": "skills/building-games/references/genres/platformer-2d.md",
+      "bytes": 8785,
+      "sha256": "2262c7c914409746971a9b1eef445b026011260ddb5a39af2f3904fc44ef8104",
+      "source": "public-snapshot",
+      "public_git_blob": "c58b22db80d31e256112c70d4a8d748b1efa792f"
+    },
+    {
+      "path": "skills/building-games/references/genres/puzzle-match3-tetris.md",
+      "bytes": 10324,
+      "sha256": "1011844cbe7d65184ecbc541ad0f3060b04ee22197d6b6bc22fa671b2329ed47",
+      "source": "public-snapshot",
+      "public_git_blob": "ea859f5f51439fe3d2cd9fddbd86f2119d8bb754"
+    },
+    {
+      "path": "skills/building-games/references/genres/racing-kart.md",
+      "bytes": 9169,
+      "sha256": "2afc99aadd556321973c8ae3ef2f8270dd5bb7bb8ad896abcac27c9a7221e0ff",
+      "source": "public-snapshot",
+      "public_git_blob": "3a44016e74363251fa6ae1a2e39f57d0ea0f98fd"
+    },
+    {
+      "path": "skills/building-games/references/genres/topdown-twin-stick.md",
+      "bytes": 7517,
+      "sha256": "f1dfeca4990b1fc37a49ca82f1246f5564a4fae24dfc3ac8b1d01f95aab43da6",
+      "source": "public-snapshot",
+      "public_git_blob": "3aab68faa757ed0fcdeba28f13db1068bb40fa8d"
+    },
+    {
+      "path": "skills/building-games/references/genres/tower-defense.md",
+      "bytes": 7411,
+      "sha256": "a52c28421da0d3710c21fa19421a172b0bc75add64b5dee35abd3b8299add76a",
+      "source": "public-snapshot",
+      "public_git_blob": "e1361195a3e52e23068c58154e46d922d5a7eaf0"
+    },
+    {
+      "path": "skills/building-games/references/genres/voxel-minecraft.md",
+      "bytes": 8658,
+      "sha256": "cdd5746e5496945694fd8e8d0fed9cf0314d4fae6dc107cfdf44a0824fdebdc6",
+      "source": "public-snapshot",
+      "public_git_blob": "b77fadb26751194553f398a5537164e4977828c6"
+    },
+    {
+      "path": "skills/building-games/references/input.md",
+      "bytes": 10311,
+      "sha256": "00e030e3a28118bfc9d2f6a633b9d56cc31f60d015181b668dcd09914d15f8ce",
+      "source": "public-snapshot",
+      "public_git_blob": "8af1c793a8e172778967e880aa4948a6bba64551"
+    },
+    {
+      "path": "skills/building-games/references/phaser.md",
+      "bytes": 19739,
+      "sha256": "08abc9cb20cfe356e3376f216aef6a62df72e654f542c7770ab69f2cdfc17b2a",
+      "source": "public-snapshot",
+      "public_git_blob": "9bf3b2619fd33d26463c092848171f1b24035635"
+    },
+    {
+      "path": "skills/building-games/references/procedural-generation.md",
+      "bytes": 10441,
+      "sha256": "f03bd0390726bc7f823ad15f9309aef5317aa7f27fb7611e6648ec3fa0ca7ace",
+      "source": "public-snapshot",
+      "public_git_blob": "5d13c1527b57aa1d8d744058638fafaae05146e4"
+    },
+    {
+      "path": "skills/building-games/references/save-persistence.md",
+      "bytes": 9041,
+      "sha256": "6751d65f6b0dc76e19be0827286a1753efc8161a3f66a080c8e23999ef5063a4",
+      "source": "public-snapshot",
+      "public_git_blob": "c2d1de3bdb780cd82b1f3d3b002c68ac3a4481ee"
+    },
+    {
+      "path": "skills/building-games/references/threejs-foundational.md",
+      "bytes": 14380,
+      "sha256": "90f75bc167ae9b4e4e980689ad5fdd81ccfc5efef457cdec01234dccd0b8dd8e",
+      "source": "public-snapshot",
+      "public_git_blob": "89b694228c9f9249ad8da04b31929950cef4fa49"
+    },
+    {
+      "path": "skills/controls/SKILL.md",
+      "bytes": 9521,
+      "sha256": "aed7b20a79487649e3fbfa6fe34c72065c8d937b31a9ee418c79ac4c4f7ab712",
+      "source": "public-snapshot",
+      "public_git_blob": "326b74f7ab2cf93fad1b5e90edfe93cb4e4327e0"
+    },
+    {
+      "path": "skills/design-ui/SKILL.md",
+      "bytes": 5995,
+      "sha256": "5ac56024db2287e485d03e208423fad29909d3b323647c5568243bfa96f42acf",
+      "source": "public-snapshot",
+      "public_git_blob": "312379206fb167e36f09ee386a29496e1ddb358c"
+    },
+    {
+      "path": "skills/design-ui/references/animations.md",
+      "bytes": 11106,
+      "sha256": "33e01727f60c34872f3f0a52c92513f9af1681449ebaa35b51123127c31bf51f",
+      "source": "public-snapshot",
+      "public_git_blob": "ce802fd0085f7ecd1ba3c18056e9a3355e2e1234"
+    },
+    {
+      "path": "skills/design-ui/references/performance.md",
+      "bytes": 2884,
+      "sha256": "f4537590cca884143b8e628123810286b4bfef29b9283f900265190bd3d8bd5e",
+      "source": "public-snapshot",
+      "public_git_blob": "155954988e9b7a518ad09d37e94f3b34e8ea8ffd"
+    },
+    {
+      "path": "skills/design-ui/references/refined-ui.md",
+      "bytes": 20469,
+      "sha256": "9abf1b1e34632f0788fec8f49a8ade216a72aab06f6cf18528b6c502c7f5a56d",
+      "source": "public-snapshot",
+      "public_git_blob": "6f0970fb680bbf7576521032da4a38dae9da0bc7"
+    },
+    {
+      "path": "skills/design-ui/references/surfaces.md",
+      "bytes": 6586,
+      "sha256": "c2eac605c207ba67b2e3bf6a3918f293a6fe02ce8c72c630a51faceb321b445d",
+      "source": "public-snapshot",
+      "public_git_blob": "eb8ab67dcb5f74e292769d7419be36569dbce6bb"
+    },
+    {
+      "path": "skills/design-ui/references/typography.md",
+      "bytes": 3180,
+      "sha256": "b91125ab0edf02a7f582bae434ae957af2f6729e7be038304bb2d0c983697eb8",
+      "source": "public-snapshot",
+      "public_git_blob": "12b8db307dabebaac3ebe3d082260cd64f7408b7"
+    },
+    {
+      "path": "skills/game-animation-frames/SKILL.md",
+      "bytes": 4386,
+      "sha256": "3840f8166d8784d672531fee4c25b618867820e97ff4faf17135f26399e0e097",
+      "source": "public-snapshot",
+      "public_git_blob": "90aa9818941593a16d6da1719c285098b32c1323"
+    },
+    {
+      "path": "skills/game-asset-core/SKILL.md",
+      "bytes": 3858,
+      "sha256": "690bb8a77495bc12c2e95b60d907a1529de87b5f65856281bb67bc67839c4cfc",
+      "source": "public-snapshot",
+      "public_git_blob": "52821bfaccd0f383d364f37756f212e32bb7099d"
+    },
+    {
+      "path": "skills/game-character-consistency/SKILL.md",
+      "bytes": 2795,
+      "sha256": "5fc49d9364193607cf3bca8f1884a43ccd4d3cbe63df69ef67b9b53346881afd",
+      "source": "public-snapshot",
+      "public_git_blob": "e16fe722999e83fa5f3545660cd4608318f3f453"
+    },
+    {
+      "path": "skills/game-tilesets/SKILL.md",
+      "bytes": 3028,
+      "sha256": "38eb784765e1b5adaee3cca138978be12f968521a80e14f3c83e096b6308e10b",
+      "source": "public-snapshot",
+      "public_git_blob": "3a2943bee9bd5ac253b074b7dc7990762602900e"
+    },
+    {
+      "path": "skills/game-ui-icons/SKILL.md",
+      "bytes": 2274,
+      "sha256": "18fd7d9a86bbba018c2eb05ffbad99bda9a8d876d7f61a80de6e6f7771771028",
+      "source": "public-snapshot",
+      "public_git_blob": "d326dc59e646f346b0d0b81428e70c678c82517e"
+    },
+    {
+      "path": "skills/generate2dmap/LICENSE",
+      "bytes": 1065,
+      "sha256": "d63ddc781bf0d15753fe0ba22c7cd5828dabb7776465ea4d4939558d4909b0fa",
+      "source": "public-snapshot",
+      "public_git_blob": "5c7720b24e8d24177847e32f8fa498328167f6ba"
+    },
+    {
+      "path": "skills/generate2dmap/SKILL.md",
+      "bytes": 7738,
+      "sha256": "992eeaa76ce3c06220e58867c9ff7554117c4af703539d7796f048e22b868f17",
+      "source": "public-snapshot",
+      "public_git_blob": "7ddb77c7cc5f2d32c25ba3a90a1f953f5b3004ff"
+    },
+    {
+      "path": "skills/generate2dmap/SOURCE.md",
+      "bytes": 303,
+      "sha256": "a3667d46be6cda6ec841c482ca371b9bae081445bc9fb15e08e5ef5e22386d31",
+      "source": "public-snapshot",
+      "public_git_blob": "71b68ff6752d68b4b71f97aa025b57f768429ef3"
+    },
+    {
+      "path": "skills/generate2dmap/references/deliverables.md",
+      "bytes": 7345,
+      "sha256": "0513bc2e2b406142f1cab3139e861c1a69de6865b686bde7e7499ba53afc7630",
+      "source": "public-snapshot",
+      "public_git_blob": "6ee56abfb8f9c35446ab77b60751f8864e0a7175"
+    },
+    {
+      "path": "skills/generate2dmap/references/layered-map-contract.md",
+      "bytes": 8102,
+      "sha256": "0af8127a5188d9d09fcf9913cf2804c5e40eb6b2be422c48d356d22c649b10a2",
+      "source": "public-snapshot",
+      "public_git_blob": "723676e9fa6d65521e51c314bdb8eeafa739704d"
+    },
+    {
+      "path": "skills/generate2dmap/references/map-strategies.md",
+      "bytes": 26755,
+      "sha256": "91659c967efd0edde10ca3bd1cc136b17b7820c0da7279078d5020827935095d",
+      "source": "public-snapshot",
+      "public_git_blob": "da1d12a36c048d7d821bebdd5be0d6b3d068eeeb"
+    },
+    {
+      "path": "skills/generate2dmap/references/object-production-gate.md",
+      "bytes": 3192,
+      "sha256": "f26eddd69b5561b6cae7945222e9212f5bf6e534fda427f48a58746238ac8bb8",
+      "source": "public-snapshot",
+      "public_git_blob": "0b38111802f0921b3ac375c888a2aaa661b98c7c"
+    },
+    {
+      "path": "skills/generate2dmap/references/pipeline.md",
+      "bytes": 16554,
+      "sha256": "e227cdc348607228f3474fe4ea1d533d65e377dd17e36a8ca61e4708fabc37c0",
+      "source": "public-snapshot",
+      "public_git_blob": "c2ebe7bb4477f8ba1be6815b48ed64143d991c74"
+    },
+    {
+      "path": "skills/generate2dmap/references/prop-pack-contract.md",
+      "bytes": 9458,
+      "sha256": "93be2245aa4f3ff9e591127a7318f34843b6458a85d7c614ca024500d30107f9",
+      "source": "public-snapshot",
+      "public_git_blob": "6ce91ba34dedfc0083ab7f365d72d977b332c975"
+    },
+    {
+      "path": "skills/generate2dmap/references/side-scroll-stages.md",
+      "bytes": 5627,
+      "sha256": "0926d20385024052bab2044645f49657552d0bb2f259aa1958a809e3332275b0",
+      "source": "public-snapshot",
+      "public_git_blob": "afb539d8689f266f43ca611f0153e4e4f2889b8d"
+    },
+    {
+      "path": "skills/generate2dmap/scripts/compose_layered_preview.py",
+      "bytes": 5256,
+      "sha256": "29d256385961475de142d2701231a9e67c369e5270c193a66df3c51b6c888855",
+      "source": "public-snapshot",
+      "public_git_blob": "51067b81cc346aff90a852fac69eb9dd89620ec3"
+    },
+    {
+      "path": "skills/generate2dmap/scripts/extract_prop_pack.py",
+      "bytes": 13050,
+      "sha256": "c02a2726497e6771e0a5a1e5105591ce98b9f161b8f6a36e04863bf7592f8e36",
+      "source": "public-snapshot",
+      "public_git_blob": "96481293b8d46201d0d487fa369b72da20034fd9"
+    },
+    {
+      "path": "skills/generate2dsprite/LICENSE",
+      "bytes": 1065,
+      "sha256": "d63ddc781bf0d15753fe0ba22c7cd5828dabb7776465ea4d4939558d4909b0fa",
+      "source": "public-snapshot",
+      "public_git_blob": "5c7720b24e8d24177847e32f8fa498328167f6ba"
+    },
+    {
+      "path": "skills/generate2dsprite/SKILL.md",
+      "bytes": 21260,
+      "sha256": "d620ac32acdb5946a41e41269aefab0b295e8038df57c2e89ce3749415e896e6",
+      "source": "public-snapshot",
+      "public_git_blob": "91ecbb1bbc87781710fb4a766bd45d4c8fc08fd2"
+    },
+    {
+      "path": "skills/generate2dsprite/SOURCE.md",
+      "bytes": 303,
+      "sha256": "a3667d46be6cda6ec841c482ca371b9bae081445bc9fb15e08e5ef5e22386d31",
+      "source": "public-snapshot",
+      "public_git_blob": "71b68ff6752d68b4b71f97aa025b57f768429ef3"
+    },
+    {
+      "path": "skills/generate2dsprite/references/modes.md",
+      "bytes": 5799,
+      "sha256": "88b75203732cf1e04af8d98427c2ddef617b7bbc1a844841d75efdf4c1359a39",
+      "source": "public-snapshot",
+      "public_git_blob": "2b9eacf007ef4708b50bf393bd6728f4cf44ec46"
+    },
+    {
+      "path": "skills/generate2dsprite/references/prompt-rules.md",
+      "bytes": 11603,
+      "sha256": "6a82348083283a29d86c934a280b0bb80c40f926a1e08582050f6dd9068041f3",
+      "source": "public-snapshot",
+      "public_git_blob": "cdff58166f4f760c8611262a96ede3627d034296"
+    },
+    {
+      "path": "skills/generate2dsprite/scripts/generate2dsprite.py",
+      "bytes": 42687,
+      "sha256": "681d0885d1813e9d7e1a82dfd340c1c71c8158e57a4c0710516c3f6c2c944a95",
+      "source": "public-snapshot",
+      "public_git_blob": "dc4d9fc405d0ebeea1add3ced7ed045244ecde59"
+    },
+    {
+      "path": "skills/generate2dsprite/scripts/make_layout_guide.py",
+      "bytes": 3590,
+      "sha256": "a1a91b069e998d304b8c37f14ec33c139f50252b5fb04574f4c997d268ec6b58",
+      "source": "public-snapshot",
+      "public_git_blob": "8ab453ca6c0b7c52631bfecc5b7264cfd88065bc"
+    },
+    {
+      "path": "skills/imagine/SKILL.md",
+      "bytes": 12383,
+      "sha256": "c4ce1e170e2d0e000378fd4d6da0fa8ad277621b36f0c9ae62313a35f6d45345",
+      "source": "public-snapshot",
+      "public_git_blob": "4fcb9f5d2b32bc814b9d7653292469e1018c56a0"
+    },
+    {
+      "path": "skills/multiplayer-p2p/SKILL.md",
+      "bytes": 5067,
+      "sha256": "234ee1648566f808315295b5e5b6bc6b6e2933a183ac1a584dcd243d792a4bf5",
+      "source": "public-snapshot",
+      "public_git_blob": "30357b375345712caed74ee346ae7b2fabbcf26e"
+    },
+    {
+      "path": "skills/multiplayer-p2p/references/react-binding.md",
+      "bytes": 4831,
+      "sha256": "77391d4a47f519889386895af34f2c101a089616caddbc47ba0134f068a734c9",
+      "source": "public-snapshot",
+      "public_git_blob": "aefad2345c44abab10e838424c432295977bf7bc"
+    },
+    {
+      "path": "skills/multiplayer-p2p/references/signaling-relay.md",
+      "bytes": 9150,
+      "sha256": "4277bb2f17e208a3d5afe72ef965788876a2935379175a9b0eb20dc2c898766f",
+      "source": "public-snapshot",
+      "public_git_blob": "ea26a2748ffa6f90e79e2dc1aa155f69bf573b9e"
+    },
+    {
+      "path": "skills/neon/SKILL.md",
+      "bytes": 6894,
+      "sha256": "276a50327788dc8ee1c0679c4c57a83c29b68106084c98c72442496583b84a07",
+      "source": "public-snapshot",
+      "public_git_blob": "d2764f906b1dad39e6f2d60b8f2851f15c3fe8b7"
+    },
+    {
+      "path": "skills/og/SKILL.md",
+      "bytes": 5893,
+      "sha256": "e31e9dba7a6ac77c541eabce8219f8b40290876dae81a4e24fd62a7fb1203740",
+      "source": "public-snapshot",
+      "public_git_blob": "97dc7dd4149d658edc83ddcb0a5440e5df02468a"
+    },
+    {
+      "path": "skills/og/references/custom-card.md",
+      "bytes": 5768,
+      "sha256": "d4971cc6a66f7bbb593c018d20efc1d7e7b7aa3fca5faeda6c1800dfb74e0a0b",
+      "source": "public-snapshot",
+      "public_git_blob": "f77cd4fec6776c6fd57b287e1a685de887d5c7fc"
+    },
+    {
+      "path": "skills/og/references/favicon-and-icons.md",
+      "bytes": 1959,
+      "sha256": "bc95ed577825a411571f4680f992799a26811dd72af6714375dc49800e216db6",
+      "source": "public-snapshot",
+      "public_git_blob": "e6d324534f9cdc7d0fc24c75c405aa89306d745d"
+    },
+    {
+      "path": "skills/og/references/og-type-contract.md",
+      "bytes": 1749,
+      "sha256": "2743a8a9a6c1eafb8aec5ae8c83f2202533df6a55649582684d2bce18a52ea2f",
+      "source": "public-snapshot",
+      "public_git_blob": "7fbb98d58981ff79277e8ddbccb2b938d15efba6"
+    },
+    {
+      "path": "skills/og/references/placeholder-card.md",
+      "bytes": 887,
+      "sha256": "c21551f098562c8ff49004885596f71848c09af13b19237f1babe820e4f7e957",
+      "source": "public-snapshot",
+      "public_git_blob": "6aecb32e71fb0bab03141cd83832506018666e14"
+    },
+    {
+      "path": "skills/og/references/x-banner.md",
+      "bytes": 2241,
+      "sha256": "018313da42fad4f8007d3b39630af1364fb2f31ea65bbf9e1aa3ab7a2f1660d5",
+      "source": "public-snapshot",
+      "public_git_blob": "2a983d7330ca7ff047b533c568552790e7c906ae"
+    },
+    {
+      "path": "skills/threejs/SKILL.md",
+      "bytes": 3021,
+      "sha256": "0fadfe66cf788bce9bcef87a3bc8d6c65e5b6275976b7bee1a914a0d05d6ecc6",
+      "source": "public-snapshot",
+      "public_git_blob": "cd3bce9c18d4b394d44fc0b0d7e4930b78fae7c7"
+    },
+    {
+      "path": "skills/threejs/references/LICENSE.threejs",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "source": "upstream-license"
+    },
+    {
+      "path": "skills/threejs/references/llms-full.txt",
+      "bytes": 132250,
+      "sha256": "e93ae843c05b2f936efaaa5946d506ca70a7cc15fa2f7adf79f9d4c70659b2cc",
+      "source": "public-snapshot",
+      "public_git_blob": "a960fd82fc38dbeb9a6f0bf37eb905ae58f6e49b"
+    },
+    {
+      "path": "skills/video2dsprite/LICENSE",
+      "bytes": 1065,
+      "sha256": "d63ddc781bf0d15753fe0ba22c7cd5828dabb7776465ea4d4939558d4909b0fa",
+      "source": "public-snapshot",
+      "public_git_blob": "5c7720b24e8d24177847e32f8fa498328167f6ba"
+    },
+    {
+      "path": "skills/video2dsprite/SKILL.md",
+      "bytes": 10058,
+      "sha256": "09062be6facd6d35373777eb464c32be7e1272030e0b5f1f66b5100e7b3e6f14",
+      "source": "public-snapshot",
+      "public_git_blob": "4066a255394dcf489bb3c9105f80f8308ac463a7"
+    },
+    {
+      "path": "skills/video2dsprite/SOURCE.md",
+      "bytes": 303,
+      "sha256": "a3667d46be6cda6ec841c482ca371b9bae081445bc9fb15e08e5ef5e22386d31",
+      "source": "public-snapshot",
+      "public_git_blob": "71b68ff6752d68b4b71f97aa025b57f768429ef3"
+    },
+    {
+      "path": "skills/video2dsprite/references/pipeline.md",
+      "bytes": 2544,
+      "sha256": "d8dcafb959b92c88c754bb784d8da047e4537bde1679875da2ce73463bbe43d0",
+      "source": "public-snapshot",
+      "public_git_blob": "0d6fb8fae522e0f58c74a58794cfe9f3e04721e9"
+    },
+    {
+      "path": "skills/video2dsprite/references/prompt-rules.md",
+      "bytes": 2482,
+      "sha256": "b1bee1a50932dc4bb26f499027d4534f556c8ef99c6744877cddc9321d8e2783",
+      "source": "public-snapshot",
+      "public_git_blob": "3b0899327addda51c0578d4218d42a53e4a9e781"
+    },
+    {
+      "path": "skills/video2dsprite/scripts/video2dsprite.py",
+      "bytes": 16164,
+      "sha256": "5a580ace4b07ef66d3069ad7fca80f744655e9ba17bdea82dfe2717bd4dfedea",
+      "source": "public-snapshot",
+      "public_git_blob": "d84f4886174348b6c541928d35c5a5491ecc0fab"
+    },
+    {
+      "path": "skills/xai-api/SKILL.md",
+      "bytes": 6607,
+      "sha256": "56acdf3895ae20ac19ebbc068b01f9bca558af261f019941b0227f224bdcb2eb",
+      "source": "public-snapshot",
+      "public_git_blob": "e6dc5f869e8f4a0acb96cc4e48609fd3bcd8735e"
+    }
+  ]
+}
